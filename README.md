@@ -1,6 +1,6 @@
-Projeto para conhecimentos da biblioteca react e request com axios.
+<h1 align="center">Projeto para conhecimentos da biblioteca react e request com axios.</h1>
 
-Grupo:
+<h3>Grupo:</h3>
 
 Nome: Gabriela Rosa Jesus de Souza
 Nome: Marcelo De Melo Gomes
@@ -8,7 +8,7 @@ Nome: Marcelo De Melo Gomes
 Trabalho desenvolvido no Modulo 3
 Nesse modulo trabalhamos o JSON Server como uma fake Rest-Api e introdução ao React. Desenvolvemos uma aplicação com o React consumindo uma api usando o Axios.
 
-Algumas tecnologias e recursos utilizados:
+<h3>Algumas tecnologias e recursos utilizados:</h3>
 
 useEffect = É um hook do React. Ele permite você execute efeitos colaterais no seu código. Mas o que seriam esses efeitos colaterais? Buscar dados de uma API, mudar a DOM, ou configurar uma subscription, por exemplo, são algumas opções de efeitos colaterais no seu código.
 
