@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Projeto para conhecimentos da biblioteca react e request com axios.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Grupo:
 
-## Available Scripts
+Nome: Gabriela Rosa Jesus de Souza
+Nome: Marcelo De Melo Gomes
 
-In the project directory, you can run:
+Trabalho desenvolvido no Modulo 3
+Nesse modulo trabalhamos o JSON Server como uma fake Rest-Api e introdução ao React. Desenvolvemos uma aplicação com o React consumindo uma api usando o Axios.
 
-### `npm start`
+Algumas tecnologias e recursos utilizados:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+useEffect = É um hook do React. Ele permite você execute efeitos colaterais no seu código. Mas o que seriam esses efeitos colaterais? Buscar dados de uma API, mudar a DOM, ou configurar uma subscription, por exemplo, são algumas opções de efeitos colaterais no seu código.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+useState = Nos permite criar estados em um componente criado a partir de uma função, assim como o state presente em componentes criados a partir de classes.
 
-### `npm test`
+useNavigate = é uma biblioteca popular para roteamento e navegação em uma aplicação React Native. Essa biblioteca ajuda a resolver o problema de navegar entre várias telas e compartilhar dados entre elas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+useParams = Permite ter acesso aos parâmetros de uma maneira mais direta;
 
-### `npm run build`
+useLocation = permite identificar o location, pathname, state de qualquer componente;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+BrowserRouter = Componente responsável por informar a nossa aplicação que teremos um roteamento de componentes, por conta disso ele ficará em volta dos componentes .
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Link = Renderiza uma interface do usuário se o local atual corresponder ao caminho da rota.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ReactDOM - O pacote react-dom provê métodos específicos para o DOM que podem ser usados no nível superior de sua aplicação como uma válvula de escape para sair do modelo do React se você precisar
 
-### `npm run eject`
+Axios = É um biblioteca que permite uma integração do seu projeto React para qualquer serviço de API disponível. Ele é uma biblioteca leve e também uma alternativa para quem usa o fetch api.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React-Bootstrap = É uma reimplementação completa dos componentes do Bootstrap usando o React. Fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+react-router-Dom = É uma biblioteca padrão para que você consiga fazer o roteamento das páginas da sua aplicação de forma dinâmica.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+styled-components = É uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript.
